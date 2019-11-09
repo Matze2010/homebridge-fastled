@@ -1,0 +1,21 @@
+{
+  "name": "homebridge-fastled",
+  "version": "0.0.1",
+  "description": "FastLED plugin for homebridge: https://github.com/nfarina/homebridge",
+  "license": "ISC",
+  "keywords": [
+    "homebridge-plugin"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/Matze2010/homebridge-fastled.git"
+  },
+  "engines": {
+    "node": ">=10.15.0",
+    "homebridge": ">=0.4.45"
+  },
+  "dependencies": {
+    "request": "^2.3.4",
+    "request-promise": "^4.2.5"
+  }
+}
