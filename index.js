@@ -94,7 +94,7 @@ FastLEDAccessory.prototype.setHue = function(hue, callback) {
 }
 
 FastLEDAccessory.prototype.getServices = function() {
-    return [this.service];
+    return [this.informationService, this.service];
   }
 
 FastLEDAccessory.prototype.getValue = function(name, callback) {
